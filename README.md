@@ -5,7 +5,7 @@
 
 ## External Contributions
 Aurora is currently not accepting contributions from external contributors in this repo. For 
-improvements to features or bug fixes should be contributed to the upstream repo.
+improvements to features or bug fixes should be contributed to the [upstream repo](https://github.com/kubeflow/pipelines).
 
 ## Overview of the Kubeflow pipelines service
 
