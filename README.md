@@ -3,6 +3,10 @@
 [![SDK Package version](https://img.shields.io/pypi/v/kfp?color=%2334D058&label=pypi%20package)](https://pypi.org/project/kfp)
 [![SDK Supported Python versions](https://img.shields.io/pypi/pyversions/kfp.svg?color=%2334D058)](https://pypi.org/project/kfp)
 
+## External Contributions
+Aurora is currently not accepting contributions from external contributors in this repo. For 
+improvements to features or bug fixes should be contributed to the [upstream repo](https://github.com/kubeflow/pipelines).
+
 ## Overview of the Kubeflow pipelines service
 
 [Kubeflow](https://www.kubeflow.org/) is a machine learning (ML) toolkit that is dedicated to making deployments of ML workflows on Kubernetes simple, portable, and scalable.
