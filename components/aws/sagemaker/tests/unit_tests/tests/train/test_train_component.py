@@ -120,6 +120,19 @@ class TrainingComponentTestCase(unittest.TestCase):
             SageMakerJobStatus(is_completed=True, raw_status="Completed"),
         )
 
+        self.component._get_debug_rule_status = MagicMock(
+            return_value=SageMakerJobStatus(
+                is_completed=True, has_error=False, raw_status="Stopped"
+            )
+        )
+        self.component._sm_client.describe_training_job.return_value = {
+            "TrainingJobStatus": "Stopped"
+        }
+        self.assertEqual(
+            self.component._get_job_status(),
+            SageMakerJobStatus(is_completed=True, raw_status="Stopped"),
+        )
+
         self.component._sm_client.describe_training_job.return_value = {
             "TrainingJobStatus": "Failed",
             "FailureReason": "lolidk",
