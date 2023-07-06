@@ -141,7 +141,7 @@ requests-toolbelt==0.9.1  # via -r -, kfp
 requests==2.26.0          # via apache-beam, docker, google-api-core, google-cloud-profiler, google-cloud-storage, hdfs, keras-tuner, kubernetes, papermill, requests-oauthlib, requests-toolbelt, tensorboard
 rsa==4.7.2                # via google-auth, oauth2client
 scikit-learn==0.24.2      # via keras-tuner
-scipy==1.7.1              # via keras-tuner, scikit-learn, tensorflow-model-analysis
+scipy==1.10.0              # via keras-tuner, scikit-learn, tensorflow-model-analysis
 send2trash==1.8.0         # via notebook
 six==1.15.0               # via -r -, absl-py, argon2-cffi, astunparse, bleach, docker, fasteners, fire, google-api-core, google-api-python-client, google-apitools, google-auth, google-auth-httplib2, google-cloud-bigquery, google-cloud-core, google-pasta, google-resumable-media, grpcio, hdfs, jsonschema, junit-xml, keras-preprocessing, kfp-server-api, kubernetes, ml-metadata, oauth2client, protobuf, python-dateutil, tensorflow, tensorflow-data-validation, tensorflow-model-analysis
 strip-hints==0.1.10       # via -r -, kfp
