@@ -77,7 +77,7 @@ ipython==7.26.0           # via ipykernel, ipywidgets, tensorflow-model-analysis
 ipywidgets==7.6.3         # via tensorflow-model-analysis
 jedi==0.18.0              # via ipython
 jinja2==2.11.3            # via ml-pipelines-sdk, nbconvert, notebook, tfx
-joblib==0.14.1            # via scikit-learn, tensorflow-data-validation
+joblib==1.2.0            # via scikit-learn, tensorflow-data-validation
 jsonschema==3.2.0         # via -r -, kfp, nbformat
 junit-xml==1.9            # via -r -
 jupyter-client==6.1.12    # via ipykernel, nbclient, notebook
