@@ -127,7 +127,7 @@ pyasn1-modules==0.2.8     # via google-auth, oauth2client
 pyasn1==0.4.8             # via oauth2client, pyasn1-modules, rsa
 pycparser==2.20           # via cffi
 pydot==1.4.2              # via apache-beam, tensorflow-transform
-pygments==2.10.0          # via ipython, jupyterlab-pygments, nbconvert
+pygments==2.15.0          # via ipython, jupyterlab-pygments, nbconvert
 pymongo==3.12.0           # via apache-beam
 pyparsing==2.4.7          # via httplib2, packaging, pydot
 pyrsistent==0.18.0        # via jsonschema
