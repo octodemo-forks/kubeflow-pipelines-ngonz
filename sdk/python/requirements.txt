@@ -50,7 +50,7 @@ google-resumable-media==2.0.3
     # via google-cloud-storage
 googleapis-common-protos==1.53.0
     # via google-api-core
-idna==3.2
+idna==3.7
     # via requests
 jsonschema==3.2.0
     # via -r requirements.in
@@ -125,10 +125,8 @@ termcolor==1.1.0
     # via fire
 typer==0.4.0
     # via -r requirements.in
-typing-extensions==3.10.0.2 ; python_version < "3.9"
-    # via
-    #   -r requirements.in
-    #   pydantic
+typing-extensions==4.11.0
+    # via pydantic
 uritemplate==3.0.1
     # via -r requirements.in
 urllib3==1.26.7
